@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+    background-color:violet;
+  }
+  
+#xyz{
+    width: 300px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px  brown;
+    text-align: center;
+  }
+  
+.image {
+    width: 100%;
+    height: auto ;
+    border-radius: 10px  0 10px  0;
+  }
+  
+.title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+.description {
+    font-size: 1.2em;
+    margin: 20px;
+  }
+  
+.button {
+    padding: 10px 20px;
+    background-color: orange;
+    color:cyan;
+    border-radius: 5px;
+    border: none;
+  }
+  
+.button:hover {
+    background-color: blue;
+    transition: 10s;
+    cursor: pointer;
+  }
+  

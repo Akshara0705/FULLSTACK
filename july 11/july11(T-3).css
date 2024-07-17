@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .button{
+    display: flex;
+    gap: 20px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+  .button1 {
+    background-color:blue;
+    color: white;
+  }
+  
+  .button1:hover {
+    background-color:red;
+    transform: scale(1.05);
+  }
+  
+  .button2 {
+    background-color:brown;
+    color: white;
+  }
+  
+  .button2:hover {
+    background-color:violet;
+    transform: scale(1.05);
+  }
+  
+
+  .button3 {
+    background-color:green;
+    color: white;
+  }
+  
+  .button3:hover {
+    background-color:pink;
+    transform: scale(1.05);
+  }
+  

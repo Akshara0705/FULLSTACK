@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--1. Linking Pages:-->
+    <a href="page1.html">page1</a><hr>
+
+    <!--2. Forms and Input Elements: -->
+    <form action="submit" method="post">
+        <label for="name" >Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name"><br>
+
+        <label for="Password">Password</label>
+        <input type="text" id="Password" name="Password" placeholder="Enter Password"><br>
+
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label>Checkbox</label>
+        <input type="checkbox" id="coding" name="coding" value="coding"><br>
+
+        <input type="submit"  value="submit">
+    </form><hr>
+    
+    <!--3. Using Tables:-->
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>Akshara</td>
+            <td>Srujju</td>
+            <td>Divya</td>
+        </tr>
+        <tr>
+            <td>x</td>
+            <td>Y</td>
+            <td>z</td>
+        </tr>
+    </table><hr>
+
+    <!--4. Creating Lists:-->
+    <ol>
+        <li>Bag</li>
+        <li>Box</li>
+        <li>Phone</li>
+        <li>Watch</li>
+        <li>Shoe</li>
+    </ol>
+    <ul>
+        <li>Apple </li>
+        <li>kiwi</li>
+        <li>Mango</li>
+        <li>Grapes</li>
+        <li>orange</li>
+    </ul><hr>
+
+    <!--5. Read Documentation on Semantic Tags:-->
+    <!--6. Semantic HTML:-->
+    <header>
+      <h1>Art and Craft</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="home">
+        <h2>Welcome to Art and Craft</h2>
+        <p>Explore the creativity and beauty of art and craft...</p>
+      </section>
+    
+      <section id="about">
+        <h2>About Us</h2>
+        <article>
+          <h3>Our Mission</h3>
+          <p>Bringing joy and inspiration through artistic creations.</p>
+        </article>
+        <aside>
+          <h3>Connect with Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </aside>
+      </section>
+    
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <article>
+          <h3>Color Paper Art</h3>
+          <p>Discover our collection of vibrant and creative art made with color papers.</p>
+        </article>
+        <article>
+          <h3>Origami</h3>
+          <p>Create beautiful shapes by folding paper.</p>
+        </article>
+      </section>
+  
+    </main>
+    
+    <footer>
+      <p>&copy; 2024 Art and Craft. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
